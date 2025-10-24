@@ -1,22 +1,17 @@
+# zone_analyzer.py
 import ccxt
 import pandas as pd
 import numpy as np
 from scipy.signal import argrelextrema
 from config import *
 import logging
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
 class ZoneAnalyzer:
     def __init__(self):
-        options = {
-            'defaultType': 'future'
-        }
-        if BINANCE_API_KEY and BINANCE_SECRET_KEY:
-            options['apiKey'] = BINANCE_API_KEY
-            options['secret'] = BINANCE_SECRET_KEY
-        
-        self.exchange = ccxt.binance(options)
+        self.exchange = ccxt.binance(BINANCE_OPTIONS)
         self.markets = None
 
     def _load_markets(self):
@@ -25,13 +20,15 @@ class ZoneAnalyzer:
                 self.markets = self.exchange.load_markets()
                 logger.info(f"✅ Загружено {len(self.markets)} рынков")
             except Exception as e:
-                logger.warning(f"⚠️ Не удалось загрузить рынки: {e}")
+                logger.error(f"❌ Ошибка загрузки рынков: {e}")
                 self.markets = {}
 
     def normalize_symbol(self, symbol: str) -> str:
+        """Нормализует символ для Binance Futures"""
         self._load_markets()
         symbol = symbol.upper().replace('/', '')
         
+        # Для фьючерсов формат: BASE/USDT:USDT
         if symbol.endswith('USDT'):
             base = symbol[:-4]
             normalized = f"{base}/USDT:USDT"
@@ -41,10 +38,12 @@ class ZoneAnalyzer:
         return symbol
 
     def fetch_ohlcv(self, symbol: str, timeframe: str = '5m', limit: int = 200) -> pd.DataFrame:
+        """Получает свечи для указанного таймфрейма"""
         try:
             symbol = self.normalize_symbol(symbol)
             logger.info(f"📊 Запрос данных: {symbol} {timeframe} (лимит: {limit})")
             
+            # Получаем данные с биржи
             ohlcv = self.exchange.fetch_ohlcv(symbol, timeframe=timeframe, limit=limit)
             
             if not ohlcv or len(ohlcv) == 0:
@@ -52,26 +51,39 @@ class ZoneAnalyzer:
                 return None
             
             logger.info(f"✅ Получено {len(ohlcv)} свечей")
+            logger.info(f"Пример первой свечи: {ohlcv[0]}")
+            logger.info(f"Пример последней свечи: {ohlcv[-1]}")
             
+            # Создаем DataFrame
             df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
             
+            # Проверяем типы данных
+            logger.info(f"Типы данных ДО конвертации:\n{df.dtypes}")
+            logger.info(f"Первая строка ДО:\n{df.iloc[0]}")
+            
+            # Конвертируем все в числа
             df['open'] = pd.to_numeric(df['open'], errors='coerce')
             df['high'] = pd.to_numeric(df['high'], errors='coerce')
             df['low'] = pd.to_numeric(df['low'], errors='coerce')
             df['close'] = pd.to_numeric(df['close'], errors='coerce')
             df['volume'] = pd.to_numeric(df['volume'], errors='coerce')
+            
+            # timestamp оставляем как есть (в миллисекундах)
             df['timestamp'] = pd.to_numeric(df['timestamp'], errors='coerce')
             
+            # Удаляем строки с NaN
             df = df.dropna()
             
             if len(df) == 0:
                 logger.error(f"❌ Все данные стали NaN после конвертации")
                 return None
             
+            # Проверяем корректность данных
             if df['high'].min() <= 0 or df['low'].min() <= 0:
-                logger.error(f"❌ Некорректные цены (<=0)")
+                logger.error(f"❌ Некорректные цены (<=0): high={df['high'].min()}, low={df['low'].min()}")
                 return None
             
+            # Проверяем логику OHLC
             invalid = df[(df['high'] < df['low']) | 
                         (df['high'] < df['open']) | 
                         (df['high'] < df['close']) |
@@ -84,6 +96,7 @@ class ZoneAnalyzer:
             
             logger.info(f"✅ Итого корректных свечей: {len(df)}")
             logger.info(f"Диапазон цен: ${df['low'].min():.6f} - ${df['high'].max():.6f}")
+            logger.info(f"Типы данных ПОСЛЕ:\n{df.dtypes}")
             
             return df
             
@@ -98,6 +111,7 @@ class ZoneAnalyzer:
             return None
 
     def get_current_price(self, symbol: str) -> float:
+        """Получает текущую цену"""
         try:
             symbol = self.normalize_symbol(symbol)
             ticker = self.exchange.fetch_ticker(symbol)
@@ -109,6 +123,7 @@ class ZoneAnalyzer:
             return None
 
     def _find_peaks_and_troughs(self, df: pd.DataFrame, order: int = 5):
+        """Находит пики и впадины"""
         high = df['high'].values
         low = df['low'].values
         
@@ -123,6 +138,7 @@ class ZoneAnalyzer:
         return peaks, troughs
 
     def _cluster_levels(self, levels, tolerance_percent=0.5):
+        """Кластеризует уровни в зоны"""
         if not levels: 
             return []
         
@@ -154,6 +170,7 @@ class ZoneAnalyzer:
         return sorted(zones, key=lambda x: x['touches'], reverse=True)[:5]
 
     def find_support_resistance_zones(self, df: pd.DataFrame, timeframe: str):
+        """Находит зоны поддержки/сопротивления"""
         peaks, troughs = self._find_peaks_and_troughs(df)
         
         resistance_levels = [p[1] for p in peaks]
@@ -167,6 +184,7 @@ class ZoneAnalyzer:
 
         current_price = df['close'].iloc[-1]
         
+        # Фильтруем только непробитые зоны
         valid_support = []
         for zone in support_zones:
             if current_price >= zone['min_price']:
@@ -188,6 +206,7 @@ class ZoneAnalyzer:
         return valid_support, valid_resistance, peaks, troughs, recent_peaks, recent_troughs
 
     def check_price_alert(self, current_price: float, zone: dict, timeframe: str) -> tuple:
+        """Проверяет нужен ли алерт"""
         price = zone['price']
         ztype = zone['type']
         width = ZONE_WIDTH_PERCENT / 100
@@ -196,14 +215,17 @@ class ZoneAnalyzer:
         lower = price * (1 - width / 2)
         upper = price * (1 + width / 2)
         
+        # ПРОБИТИЕ
         if ztype == 'support' and current_price < lower:
             return ('broken', f"{timeframe}_{ztype}_{price:.8f}")
         if ztype == 'resistance' and current_price > upper:
             return ('broken', f"{timeframe}_{ztype}_{price:.8f}")
         
+        # В ЗОНЕ
         if lower <= current_price <= upper:
             return ('in_zone', f"{timeframe}_{ztype}_{price:.8f}")
         
+        # ПРИБЛИЖЕНИЕ
         dist = abs(current_price - price) / price
         if dist <= approach:
             return ('approaching', f"{timeframe}_{ztype}_{price:.8f}")

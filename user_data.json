@@ -1,0 +1,1618 @@
+{
+  "855000510": {
+    "tickers": [
+      "SPKUSDT",
+      "HANAUSDT",
+      "ONUSDT",
+      "COAIUSDT",
+      "FUSDT"
+    ],
+    "interval": "continuous",
+    "timeframes": [
+      "5m",
+      "15m",
+      "1h",
+      "4h",
+      "1d"
+    ],
+    "zones": {
+      "4USDT": {
+        "1h": {
+          "support": [
+            {
+              "price": 0.07451,
+              "touches": 1,
+              "min_price": 0.07451,
+              "max_price": 0.07451,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.08149,
+              "touches": 1,
+              "min_price": 0.08149,
+              "max_price": 0.08149,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.08264,
+              "touches": 1,
+              "min_price": 0.08264,
+              "max_price": 0.08264,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.09191,
+              "touches": 1,
+              "min_price": 0.09191,
+              "max_price": 0.09191,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.10484,
+              "touches": 1,
+              "min_price": 0.10484,
+              "max_price": 0.10484,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.12178,
+              "touches": 1,
+              "min_price": 0.12178,
+              "max_price": 0.12178,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.13562,
+              "touches": 1,
+              "min_price": 0.13562,
+              "max_price": 0.13562,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.14996,
+              "touches": 1,
+              "min_price": 0.14996,
+              "max_price": 0.14996,
+              "type": "resistance",
+              "timeframe": "1h"
+            }
+          ]
+        },
+        "5m": {
+          "support": [
+            {
+              "price": 0.09770999999999999,
+              "touches": 2,
+              "min_price": 0.09749,
+              "max_price": 0.09793,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.09327,
+              "touches": 1,
+              "min_price": 0.09327,
+              "max_price": 0.09327,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.12619,
+              "touches": 2,
+              "min_price": 0.12614,
+              "max_price": 0.12624,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.09981,
+              "touches": 1,
+              "min_price": 0.09981,
+              "max_price": 0.09981,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.10369,
+              "touches": 1,
+              "min_price": 0.10369,
+              "max_price": 0.10369,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.10807,
+              "touches": 1,
+              "min_price": 0.10807,
+              "max_price": 0.10807,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.11725,
+              "touches": 1,
+              "min_price": 0.11725,
+              "max_price": 0.11725,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.07451,
+              "touches": 1,
+              "min_price": 0.07451,
+              "max_price": 0.07451,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.08264,
+              "touches": 1,
+              "min_price": 0.08264,
+              "max_price": 0.08264,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.08958,
+              "touches": 1,
+              "min_price": 0.08958,
+              "max_price": 0.08958,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.09327,
+              "touches": 1,
+              "min_price": 0.09327,
+              "max_price": 0.09327,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.09793,
+              "touches": 1,
+              "min_price": 0.09793,
+              "max_price": 0.09793,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.09981,
+              "touches": 1,
+              "min_price": 0.09981,
+              "max_price": 0.09981,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.11495,
+              "touches": 1,
+              "min_price": 0.11495,
+              "max_price": 0.11495,
+              "type": "resistance",
+              "timeframe": "15m"
+            }
+          ]
+        }
+      },
+      "APRUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 0.42554,
+              "touches": 1,
+              "min_price": 0.42554,
+              "max_price": 0.42554,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.45202,
+              "touches": 1,
+              "min_price": 0.45202,
+              "max_price": 0.45202,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.666615,
+              "touches": 2,
+              "min_price": 0.66657,
+              "max_price": 0.66666,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.743205,
+              "touches": 2,
+              "min_price": 0.7431,
+              "max_price": 0.74331,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.515,
+              "touches": 1,
+              "min_price": 0.515,
+              "max_price": 0.515,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.61222,
+              "touches": 1,
+              "min_price": 0.61222,
+              "max_price": 0.61222,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.63428,
+              "touches": 1,
+              "min_price": 0.63428,
+              "max_price": 0.63428,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "1h": {
+          "support": [
+            {
+              "price": 0.23725,
+              "touches": 1,
+              "min_price": 0.23725,
+              "max_price": 0.23725,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.7431,
+              "touches": 1,
+              "min_price": 0.7431,
+              "max_price": 0.7431,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.75,
+              "touches": 1,
+              "min_price": 0.75,
+              "max_price": 0.75,
+              "type": "resistance",
+              "timeframe": "1h"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.23725,
+              "touches": 1,
+              "min_price": 0.23725,
+              "max_price": 0.23725,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.3022,
+              "touches": 1,
+              "min_price": 0.3022,
+              "max_price": 0.3022,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.40201,
+              "touches": 1,
+              "min_price": 0.40201,
+              "max_price": 0.40201,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.6683250000000001,
+              "touches": 2,
+              "min_price": 0.66666,
+              "max_price": 0.66999,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.445,
+              "touches": 1,
+              "min_price": 0.445,
+              "max_price": 0.445,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.69999,
+              "touches": 1,
+              "min_price": 0.69999,
+              "max_price": 0.69999,
+              "type": "resistance",
+              "timeframe": "15m"
+            }
+          ]
+        }
+      },
+      "SPKUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 0.03842285714285714,
+              "touches": 7,
+              "min_price": 0.03825,
+              "max_price": 0.03858,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.037636666666666665,
+              "touches": 3,
+              "min_price": 0.03753,
+              "max_price": 0.0377,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.03873,
+              "touches": 2,
+              "min_price": 0.03872,
+              "max_price": 0.03874,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.03804,
+              "touches": 1,
+              "min_price": 0.03804,
+              "max_price": 0.03804,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.03895,
+              "touches": 1,
+              "min_price": 0.03895,
+              "max_price": 0.03895,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": []
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.03767,
+              "touches": 3,
+              "min_price": 0.03753,
+              "max_price": 0.03778,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.0382,
+              "touches": 2,
+              "min_price": 0.03813,
+              "max_price": 0.03827,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.038535,
+              "touches": 2,
+              "min_price": 0.03849,
+              "max_price": 0.03858,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.034,
+              "touches": 1,
+              "min_price": 0.034,
+              "max_price": 0.034,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.03542,
+              "touches": 1,
+              "min_price": 0.03542,
+              "max_price": 0.03542,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": []
+        },
+        "1h": {
+          "support": [
+            {
+              "price": 0.035785000000000004,
+              "touches": 4,
+              "min_price": 0.03568,
+              "max_price": 0.03588,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.03541,
+              "touches": 2,
+              "min_price": 0.0354,
+              "max_price": 0.03542,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.03354,
+              "touches": 1,
+              "min_price": 0.03354,
+              "max_price": 0.03354,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.034,
+              "touches": 1,
+              "min_price": 0.034,
+              "max_price": 0.034,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.03473,
+              "touches": 1,
+              "min_price": 0.03473,
+              "max_price": 0.03473,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": []
+        },
+        "4h": {
+          "support": [
+            {
+              "price": 0.02152,
+              "touches": 1,
+              "min_price": 0.02152,
+              "max_price": 0.02152,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.03354,
+              "touches": 1,
+              "min_price": 0.03354,
+              "max_price": 0.03354,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.034,
+              "touches": 1,
+              "min_price": 0.034,
+              "max_price": 0.034,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.0354,
+              "touches": 1,
+              "min_price": 0.0354,
+              "max_price": 0.0354,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.03588,
+              "touches": 1,
+              "min_price": 0.03588,
+              "max_price": 0.03588,
+              "type": "support",
+              "timeframe": "4h"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.052829999999999995,
+              "touches": 3,
+              "min_price": 0.05275,
+              "max_price": 0.05293,
+              "type": "resistance",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.042465,
+              "touches": 2,
+              "min_price": 0.04243,
+              "max_price": 0.0425,
+              "type": "resistance",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.04207,
+              "touches": 1,
+              "min_price": 0.04207,
+              "max_price": 0.04207,
+              "type": "resistance",
+              "timeframe": "4h"
+            }
+          ]
+        },
+        "1d": {
+          "support": [
+            {
+              "price": 0.02152,
+              "touches": 1,
+              "min_price": 0.02152,
+              "max_price": 0.02152,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.02907,
+              "touches": 1,
+              "min_price": 0.02907,
+              "max_price": 0.02907,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.03354,
+              "touches": 1,
+              "min_price": 0.03354,
+              "max_price": 0.03354,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.03518,
+              "touches": 1,
+              "min_price": 0.03518,
+              "max_price": 0.03518,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.04024,
+              "touches": 1,
+              "min_price": 0.04024,
+              "max_price": 0.04024,
+              "type": "support",
+              "timeframe": "1d"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.04513,
+              "touches": 1,
+              "min_price": 0.04513,
+              "max_price": 0.04513,
+              "type": "resistance",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.05724,
+              "touches": 1,
+              "min_price": 0.05724,
+              "max_price": 0.05724,
+              "type": "resistance",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.07601,
+              "touches": 1,
+              "min_price": 0.07601,
+              "max_price": 0.07601,
+              "type": "resistance",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.08547,
+              "touches": 1,
+              "min_price": 0.08547,
+              "max_price": 0.08547,
+              "type": "resistance",
+              "timeframe": "1d"
+            }
+          ]
+        }
+      },
+      "HANAUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 0.0508275,
+              "touches": 4,
+              "min_price": 0.0507,
+              "max_price": 0.05089,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.051405,
+              "touches": 2,
+              "min_price": 0.0513,
+              "max_price": 0.05151,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.05178,
+              "touches": 2,
+              "min_price": 0.05168,
+              "max_price": 0.05188,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.052320000000000005,
+              "touches": 2,
+              "min_price": 0.05224,
+              "max_price": 0.0524,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.05302,
+              "touches": 2,
+              "min_price": 0.05296,
+              "max_price": 0.05308,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.05192,
+              "touches": 1,
+              "min_price": 0.05192,
+              "max_price": 0.05192,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.05338,
+              "touches": 1,
+              "min_price": 0.05338,
+              "max_price": 0.05338,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.05081,
+              "touches": 3,
+              "min_price": 0.0507,
+              "max_price": 0.05089,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.04593,
+              "touches": 1,
+              "min_price": 0.04593,
+              "max_price": 0.04593,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.04689,
+              "touches": 1,
+              "min_price": 0.04689,
+              "max_price": 0.04689,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.04857,
+              "touches": 1,
+              "min_price": 0.04857,
+              "max_price": 0.04857,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.055049999999999995,
+              "touches": 3,
+              "min_price": 0.05497,
+              "max_price": 0.05518,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.053195000000000006,
+              "touches": 2,
+              "min_price": 0.05308,
+              "max_price": 0.05331,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.05414,
+              "touches": 2,
+              "min_price": 0.05408,
+              "max_price": 0.0542,
+              "type": "resistance",
+              "timeframe": "15m"
+            }
+          ]
+        },
+        "1h": {
+          "support": [
+            {
+              "price": 0.050083333333333334,
+              "touches": 3,
+              "min_price": 0.05007,
+              "max_price": 0.05009,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.04914,
+              "touches": 2,
+              "min_price": 0.04911,
+              "max_price": 0.04917,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.04571,
+              "touches": 1,
+              "min_price": 0.04571,
+              "max_price": 0.04571,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.04741,
+              "touches": 1,
+              "min_price": 0.04741,
+              "max_price": 0.04741,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.0481,
+              "touches": 1,
+              "min_price": 0.0481,
+              "max_price": 0.0481,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.05471,
+              "touches": 2,
+              "min_price": 0.05467,
+              "max_price": 0.05475,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.0524,
+              "touches": 1,
+              "min_price": 0.0524,
+              "max_price": 0.0524,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.05533,
+              "touches": 1,
+              "min_price": 0.05533,
+              "max_price": 0.05533,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.05635,
+              "touches": 1,
+              "min_price": 0.05635,
+              "max_price": 0.05635,
+              "type": "resistance",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.05859,
+              "touches": 1,
+              "min_price": 0.05859,
+              "max_price": 0.05859,
+              "type": "resistance",
+              "timeframe": "1h"
+            }
+          ]
+        },
+        "4h": {
+          "support": [
+            {
+              "price": 0.05005,
+              "touches": 2,
+              "min_price": 0.05001,
+              "max_price": 0.05009,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.00998,
+              "touches": 1,
+              "min_price": 0.00998,
+              "max_price": 0.00998,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.03514,
+              "touches": 1,
+              "min_price": 0.03514,
+              "max_price": 0.03514,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.03765,
+              "touches": 1,
+              "min_price": 0.03765,
+              "max_price": 0.03765,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.03807,
+              "touches": 1,
+              "min_price": 0.03807,
+              "max_price": 0.03807,
+              "type": "support",
+              "timeframe": "4h"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.07533999999999999,
+              "touches": 2,
+              "min_price": 0.07528,
+              "max_price": 0.0754,
+              "type": "resistance",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.05265,
+              "touches": 1,
+              "min_price": 0.05265,
+              "max_price": 0.05265,
+              "type": "resistance",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.0553,
+              "touches": 1,
+              "min_price": 0.0553,
+              "max_price": 0.0553,
+              "type": "resistance",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.05635,
+              "touches": 1,
+              "min_price": 0.05635,
+              "max_price": 0.05635,
+              "type": "resistance",
+              "timeframe": "4h"
+            }
+          ]
+        },
+        "1d": {
+          "support": [
+            {
+              "price": 0.00998,
+              "touches": 1,
+              "min_price": 0.00998,
+              "max_price": 0.00998,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.03514,
+              "touches": 1,
+              "min_price": 0.03514,
+              "max_price": 0.03514,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.04571,
+              "touches": 1,
+              "min_price": 0.04571,
+              "max_price": 0.04571,
+              "type": "support",
+              "timeframe": "1d"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.0754,
+              "touches": 1,
+              "min_price": 0.0754,
+              "max_price": 0.0754,
+              "type": "resistance",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.1036,
+              "touches": 1,
+              "min_price": 0.1036,
+              "max_price": 0.1036,
+              "type": "resistance",
+              "timeframe": "1d"
+            }
+          ]
+        }
+      },
+      "ONUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 0.25,
+              "touches": 1,
+              "min_price": 0.25,
+              "max_price": 0.25,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.2531,
+              "touches": 1,
+              "min_price": 0.2531,
+              "max_price": 0.2531,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.257,
+              "touches": 1,
+              "min_price": 0.257,
+              "max_price": 0.257,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.261,
+              "touches": 1,
+              "min_price": 0.261,
+              "max_price": 0.261,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.28289333333333333,
+              "touches": 3,
+              "min_price": 0.28252,
+              "max_price": 0.28337,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.2885,
+              "touches": 1,
+              "min_price": 0.2885,
+              "max_price": 0.2885,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.2928,
+              "touches": 1,
+              "min_price": 0.2928,
+              "max_price": 0.2928,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.31894,
+              "touches": 1,
+              "min_price": 0.31894,
+              "max_price": 0.31894,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.32069,
+              "touches": 1,
+              "min_price": 0.32069,
+              "max_price": 0.32069,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.25,
+              "touches": 1,
+              "min_price": 0.25,
+              "max_price": 0.25,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.28337,
+              "touches": 1,
+              "min_price": 0.28337,
+              "max_price": 0.28337,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.32979,
+              "touches": 1,
+              "min_price": 0.32979,
+              "max_price": 0.32979,
+              "type": "resistance",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.40422,
+              "touches": 1,
+              "min_price": 0.40422,
+              "max_price": 0.40422,
+              "type": "resistance",
+              "timeframe": "15m"
+            }
+          ]
+        }
+      },
+      "COAIUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 15.0425,
+              "touches": 2,
+              "min_price": 15.005,
+              "max_price": 15.08,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 14.61,
+              "touches": 1,
+              "min_price": 14.61,
+              "max_price": 14.61,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 15.24,
+              "touches": 1,
+              "min_price": 15.24,
+              "max_price": 15.24,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 18.182,
+              "touches": 3,
+              "min_price": 18.133,
+              "max_price": 18.222,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 16.994999999999997,
+              "touches": 2,
+              "min_price": 16.99,
+              "max_price": 17.0,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 18.512,
+              "touches": 2,
+              "min_price": 18.5,
+              "max_price": 18.524,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 15.783,
+              "touches": 1,
+              "min_price": 15.783,
+              "max_price": 15.783,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 16.089,
+              "touches": 1,
+              "min_price": 16.089,
+              "max_price": 16.089,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 12.943333333333333,
+              "touches": 3,
+              "min_price": 12.911,
+              "max_price": 12.962,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 12.617,
+              "touches": 1,
+              "min_price": 12.617,
+              "max_price": 12.617,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 12.839,
+              "touches": 1,
+              "min_price": 12.839,
+              "max_price": 12.839,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 13.11,
+              "touches": 1,
+              "min_price": 13.11,
+              "max_price": 13.11,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 13.41,
+              "touches": 1,
+              "min_price": 13.41,
+              "max_price": 13.41,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": []
+        },
+        "1h": {
+          "support": [
+            {
+              "price": 14.5765,
+              "touches": 2,
+              "min_price": 14.543,
+              "max_price": 14.61,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 4.343,
+              "touches": 1,
+              "min_price": 4.343,
+              "max_price": 4.343,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 4.643,
+              "touches": 1,
+              "min_price": 4.643,
+              "max_price": 4.643,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 7.631,
+              "touches": 1,
+              "min_price": 7.631,
+              "max_price": 7.631,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 9.386,
+              "touches": 1,
+              "min_price": 9.386,
+              "max_price": 9.386,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": []
+        },
+        "4h": {
+          "support": [
+            {
+              "price": 0.13429,
+              "touches": 1,
+              "min_price": 0.13429,
+              "max_price": 0.13429,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.17141,
+              "touches": 1,
+              "min_price": 0.17141,
+              "max_price": 0.17141,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.19586,
+              "touches": 1,
+              "min_price": 0.19586,
+              "max_price": 0.19586,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.351,
+              "touches": 1,
+              "min_price": 0.351,
+              "max_price": 0.351,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 1.73767,
+              "touches": 1,
+              "min_price": 1.73767,
+              "max_price": 1.73767,
+              "type": "support",
+              "timeframe": "4h"
+            }
+          ],
+          "resistance": []
+        },
+        "1d": {
+          "support": [
+            {
+              "price": 0.13429,
+              "touches": 1,
+              "min_price": 0.13429,
+              "max_price": 0.13429,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 4.343,
+              "touches": 1,
+              "min_price": 4.343,
+              "max_price": 4.343,
+              "type": "support",
+              "timeframe": "1d"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 20.099,
+              "touches": 1,
+              "min_price": 20.099,
+              "max_price": 20.099,
+              "type": "resistance",
+              "timeframe": "1d"
+            }
+          ]
+        }
+      },
+      "FUSDT": {
+        "5m": {
+          "support": [
+            {
+              "price": 0.022602333333333335,
+              "touches": 3,
+              "min_price": 0.022541,
+              "max_price": 0.022654,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.019009,
+              "touches": 1,
+              "min_price": 0.019009,
+              "max_price": 0.019009,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.019621,
+              "touches": 1,
+              "min_price": 0.019621,
+              "max_price": 0.019621,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.020396,
+              "touches": 1,
+              "min_price": 0.020396,
+              "max_price": 0.020396,
+              "type": "support",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.020652,
+              "touches": 1,
+              "min_price": 0.020652,
+              "max_price": 0.020652,
+              "type": "support",
+              "timeframe": "5m"
+            }
+          ],
+          "resistance": [
+            {
+              "price": 0.023629,
+              "touches": 2,
+              "min_price": 0.023587,
+              "max_price": 0.023671,
+              "type": "resistance",
+              "timeframe": "5m"
+            },
+            {
+              "price": 0.023846,
+              "touches": 1,
+              "min_price": 0.023846,
+              "max_price": 0.023846,
+              "type": "resistance",
+              "timeframe": "5m"
+            }
+          ]
+        },
+        "15m": {
+          "support": [
+            {
+              "price": 0.0138515,
+              "touches": 2,
+              "min_price": 0.013818,
+              "max_price": 0.013885,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.0142095,
+              "touches": 2,
+              "min_price": 0.014181,
+              "max_price": 0.014238,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.0148265,
+              "touches": 2,
+              "min_price": 0.014815,
+              "max_price": 0.014838,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.01236,
+              "touches": 1,
+              "min_price": 0.01236,
+              "max_price": 0.01236,
+              "type": "support",
+              "timeframe": "15m"
+            },
+            {
+              "price": 0.012451,
+              "touches": 1,
+              "min_price": 0.012451,
+              "max_price": 0.012451,
+              "type": "support",
+              "timeframe": "15m"
+            }
+          ],
+          "resistance": []
+        },
+        "1h": {
+          "support": [
+            {
+              "price": 0.008952499999999999,
+              "touches": 2,
+              "min_price": 0.008936,
+              "max_price": 0.008969,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.009465,
+              "touches": 2,
+              "min_price": 0.009453,
+              "max_price": 0.009477,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.008671,
+              "touches": 1,
+              "min_price": 0.008671,
+              "max_price": 0.008671,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.008863,
+              "touches": 1,
+              "min_price": 0.008863,
+              "max_price": 0.008863,
+              "type": "support",
+              "timeframe": "1h"
+            },
+            {
+              "price": 0.009238,
+              "touches": 1,
+              "min_price": 0.009238,
+              "max_price": 0.009238,
+              "type": "support",
+              "timeframe": "1h"
+            }
+          ],
+          "resistance": []
+        },
+        "4h": {
+          "support": [
+            {
+              "price": 0.004579,
+              "touches": 1,
+              "min_price": 0.004579,
+              "max_price": 0.004579,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.007534,
+              "touches": 1,
+              "min_price": 0.007534,
+              "max_price": 0.007534,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.008671,
+              "touches": 1,
+              "min_price": 0.008671,
+              "max_price": 0.008671,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.008716,
+              "touches": 1,
+              "min_price": 0.008716,
+              "max_price": 0.008716,
+              "type": "support",
+              "timeframe": "4h"
+            },
+            {
+              "price": 0.008804,
+              "touches": 1,
+              "min_price": 0.008804,
+              "max_price": 0.008804,
+              "type": "support",
+              "timeframe": "4h"
+            }
+          ],
+          "resistance": []
+        },
+        "1d": {
+          "support": [
+            {
+              "price": 0.004579,
+              "touches": 1,
+              "min_price": 0.004579,
+              "max_price": 0.004579,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.006153,
+              "touches": 1,
+              "min_price": 0.006153,
+              "max_price": 0.006153,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.006891,
+              "touches": 1,
+              "min_price": 0.006891,
+              "max_price": 0.006891,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.007343,
+              "touches": 1,
+              "min_price": 0.007343,
+              "max_price": 0.007343,
+              "type": "support",
+              "timeframe": "1d"
+            },
+            {
+              "price": 0.007901,
+              "touches": 1,
+              "min_price": 0.007901,
+              "max_price": 0.007901,
+              "type": "support",
+              "timeframe": "1d"
+            }
+          ],
+          "resistance": []
+        }
+      }
+    },
+    "sent_alerts": {
+      "SPKUSDT": [
+        "4h_resistance_0.04207000",
+        "1d_support_0.04024000",
+        "4h_resistance_0.04246500",
+        "1d_resistance_0.04513000"
+      ],
+      "HANAUSDT": [
+        "5m_support_0.05082750",
+        "5m_support_0.05140500",
+        "5m_support_0.05178000",
+        "5m_resistance_0.05232000",
+        "5m_resistance_0.05192000",
+        "15m_support_0.05081000",
+        "1h_resistance_0.05240000",
+        "4h_resistance_0.05265000",
+        "5m_resistance_0.05302000",
+        "15m_resistance_0.05319500",
+        "5m_resistance_0.05338000"
+      ],
+      "ONUSDT": [
+        "15m_support_0.25000000"
+      ],
+      "COAIUSDT": [
+        "5m_resistance_15.78300000",
+        "5m_support_15.24000000",
+        "5m_resistance_16.08900000"
+      ],
+      "FUSDT": [
+        "5m_support_0.02260233",
+        "5m_resistance_0.02362900"
+      ]
+    }
+  }
+}
