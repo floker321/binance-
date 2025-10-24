@@ -9,7 +9,14 @@ logger = logging.getLogger(__name__)
 
 class ZoneAnalyzer:
     def __init__(self):
-        self.exchange = ccxt.binance(BINANCE_OPTIONS)
+        options = {
+            'defaultType': 'future'
+        }
+        if BINANCE_API_KEY and BINANCE_SECRET_KEY:
+            options['apiKey'] = BINANCE_API_KEY
+            options['secret'] = BINANCE_SECRET_KEY
+        
+        self.exchange = ccxt.binance(options)
         self.markets = None
 
     def _load_markets(self):
@@ -18,7 +25,7 @@ class ZoneAnalyzer:
                 self.markets = self.exchange.load_markets()
                 logger.info(f"✅ Загружено {len(self.markets)} рынков")
             except Exception as e:
-                logger.error(f"❌ Ошибка загрузки рынков: {e}")
+                logger.warning(f"⚠️ Не удалось загрузить рынки: {e}")
                 self.markets = {}
 
     def normalize_symbol(self, symbol: str) -> str:
